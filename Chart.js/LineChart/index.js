@@ -13,17 +13,17 @@
         labels: ["Sprint-1", "Sprint-2", "Sprint-3", "Sprint-4", "Sprint-5"],
         datasets: [
           {
-            type: "bar",
+            type: "line",
             label: "Scores",
             data: [2, 6, 10, 3, 8],
-            borderWidth: 1,
+            borderWidth: 3,
             backgroundColor: [CreateColor(345)],
           },
           {
-            type: "bar",
+            type: "line",
             label: "Performence",
             data: [3, 5, 8, 6, 2],
-            borderWidth: 1,
+            borderWidth: 3,
             backgroundColor: [CreateColor(684)],
           },
         ],

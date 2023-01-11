@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#chart {
+  padding: 1rem;
+  background: rgb(241, 247, 241);
+  width: 50%;
+  margin: auto;
+  margin-top: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#MyFirstChart {
+  margin: auto;
+  height: 300px;
+}
+#input {
+  /* border: 1px solid green; */
+  width: 30%;
+  margin: auto;
+  margin-top: 1rem;
+  padding: 1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
+}
+input {
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+#btn {
+  border: none;
+  color: rgb(12, 11, 11);
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+#btn:hover {
+  background-color: greenyellow;
+}
+#input > input,
+button {
+  display: flex;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+#remove {
+  border: none;
+  color: rgb(12, 11, 11);
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+#remove:hover {
+  background-color: red;
+}
